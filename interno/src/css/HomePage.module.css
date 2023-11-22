@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    padding-left: 220px;
+    padding-right: 220px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+header img{
+    width: 30px;
+    height: 30px;
+}
+header img:hover{
+    cursor: pointer;
+}
+.mainLogoP:hover{
+    cursor: pointer;
+}
+.mainLogoP{
+    color: #292F36;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 50px */
+    margin-left: 15px
+}
+header ul{
+    display: flex;
+    gap: 40px;
+}
+header ul li{
+    color: #292F36;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 25px */
+}
+header ul li:first-child{
+    margin-left: 250px;
+}
+header ul li:hover{
+    transition: all 0.2s ease-in-out;
+    color: rgb(5, 179, 179);
+    cursor: pointer;
+}
+footer{
+    height: 450px;
+    width: 100%;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-top: 140px;
+}
+.help1{
+    width: 393px;
+    display: flex;
+    flex-shrink: 0;
+}
+.help1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.footerP1{
+    width: 393px;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33px */
+    letter-spacing: 0.22px;
+    margin-top: 20px;
+}
+.footerUlPt1{
+    display: flex;
+    gap: 40px;
+}
+.footerLiPt1{
+    color: #292F36;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 21.6px */
+    letter-spacing: 0.99px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.footerUlPt2{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.footerUlPt2 li{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+.FooterPt1{
+    display: flex;
+    gap: 50px;
+}
+#id1{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+}
+.writtenBy{
+    color: #4D5053;
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.FooterPt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.HomePageSecPT1{
+    background-image: url(../img/HomePageMainImg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20%;
+    width: 100%;
+    height: 800px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.homeMainp1{
+    width: 567px;
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 106.25px */
+}
+.homeChildp1{
+    width: 553px;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.HomePageSecPT1 button{
+    border: 1px solid rgb(229,228,224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 219.141px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: #292F36;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+    gap: 10px;
+}
+.iconClass1{
+    color: yellow;
+}
+.HomePageSecPT1 button:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    background-color: rgb(229,228,224);
+    color: #292F36;
+    box-shadow: 1px 30px 40px 0px rgb(116 65 65 / 35%);
+}
+.HomePageSecPT1 button:hover .iconClass1{
+    color: #4D5053;
+}
+.HomePageSecPT2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.HomePageSecPT2p1{
+    color: #292F36; 
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+}
+.HomePageSecPT2p2{
+    width: 358px;
+    color: #4D5053;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.HomePageSecPT2p3{
+    color: #4D5053;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.HomePageSecPT2p3:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    color: red;
+}
+.HomePageSecPT3{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.HomePageSecPT3 div img{
+    width: 532px;
+    height: 600px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 33%;
+}
+.HomePageSecPT3p1{
+    width: 420px;
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+}
+.HomePageSecPT3p2{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    width: 472px;
+    margin: 30px 0;
+}
+.iconDivchik2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(195, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomePageSecPT3 button{
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 65px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 18px;
+    background: #292F36;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    border: 1px solid rgb(229,228,224);
+}
+.HomePageSecPT3 button:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    background-color: rgb(229,228,224);
+    color: #292F36;
+    box-shadow: 1px 10px 20px 0px rgb(116 65 65 / 35%);
+}
+.HomePageSecPT1 button:hover .iconClass1{
+    color: #4D5053;
+}
+.HomePageSecPT3p3{
+    display: flex;
+    width: 169px;
+    height: 31px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.HomePageSecPT3p4{
+    display: flex;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.24px;
+}
+.iconClass2{
+    font-size: 22px;
+    color: #4D5053;
+}
+.HomePageSecPT2Div1{
+    display: flex;
+    gap: 15px;
+    margin: 50px 0;
+}
+
+
+
+
+
+.HomePageSecPT4{
+    width: 1199px;
+    height: 679px;
+    background-color: #F4F0EC;
+    margin: auto;
+    border-radius: 7%;
+    margin-top: 160px;
+}
+.HomePagePT4p1{
+    color: #292F36;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    width: 580px;
+    margin: 20px auto ;
+    padding-top: 50px;
+}
+.CardDiv1{
+    width: 370px;
+    height: 339px;
+    background-color: #FFF;
+    border-radius: 8%;
+    padding: 50px 50px;
+}
+.CardsDiv1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.photoClass1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.HomePagePT4p2{
+    display: flex;
+    width: 141px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.24px;
+}
+.HomePagePT4p3{
+    display: flex;
+    width: 169px;
+    height: 31px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.HomePagePT4p4{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    width: 296px;
+    margin-top: 20px;
+}
+.helpDiv1{
+    display: flex;
+    gap: 15px;
+}
+.Sponsor{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    height: 102px;
+    width: 1199px;
+    margin-left: 130px;
+    margin-top: 140px;
+}
+.HomePagePT5{
+    height: 1620px;
+    width: 1200px;
+}
+.HomePagePT5p1{
+    color: #292F36;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    margin-left: 25%;
+    margin-top: 200px;
+}
+.HomePagePT5p2{
+    width: 737px;
+    color: #4D5053;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.img4{
+    border-top-right-radius: 13%;
+    margin-bottom: 20px;
+}
+.HomePagePT5p3{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+}
+.HomePagePT5p4{
+    display: flex;
+    width: 217px;
+    height: 27px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.helpDiv5{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F0EC;
+    border-radius: 50%;
+}
+.iconClass4{
+    font-size: 22px;
+}
+.helpDiv3{
+    display: flex;
+    justify-content: space-between;
+}
+.CardDiv2{
+    width: 560px;
+}
+.CardsDiv2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.img1{
+    border-top-left-radius: 13%;
+    margin-bottom: 20px;
+}
+.img2{
+    border-bottom-right-radius: 13%;
+    margin-bottom: 20px;
+}
+.img3{
+    border-bottom-left-radius: 13%;
+    margin-bottom: 20px;
+}
+.helpDiv5:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    background-color: rgb(184, 129, 129);
+    scale: 0.95;
+}
+.helpDiv5:hover .iconClass4{
+    color: yellow;
+}
+.HomePagePT6{
+    margin-top: 200px;
+    width: 100%;
+    height: 457px;
+    background-color: #F4F0EC;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    position: relative;
+}
+.HomePagePT6p2{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.HomePagePT6p1{
+    width: 77px;
+    color: #CDA274;
+    font-family: 'DM Serif Display', serif;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 106.25px */
+    letter-spacing: 1.7px;
+}
+.HomePagePT6 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hr1{
+    width: 1px;
+    height: 130px;
+    background: #CDA274;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+.hr2{
+    width: 1px;
+    height: 130px;
+    background: #CDA274;
+    position: absolute;
+    top: 180px;
+    left: 750px;
+}
+.hr3{
+    width: 1px;
+    height: 130px;
+    background: #CDA274;
+    position: absolute;
+    top: 180px;
+    left: 1010px;
+}
+.HomePagePT7{
+    display: flex;
+    width: 1199px;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70px;
+    background: #292F36;
+    margin-left: 9%;
+    margin-top: 160px;
+    gap: 30px;
+}
+.HomePagePT7p1{
+    width: 569px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+}
+.HomePagePT7p2{
+    width: 452px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.HomePagePT7 button{
+    width: 237px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 18px;
+    background: #CDA274;
+    box-shadow: 0px 10px 20px 0px #1F2022;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    border: 1px solid #292F36;
+}
+.HomePagePT7 button:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0px 10px 40px 0px #47484b;
+    scale: 0.97;
+}
