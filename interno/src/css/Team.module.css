@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.teamSec1{
+    background-image: url(../img/teamMainImg.jpg);
+    width: 100%;
+    height: 340px;
+    padding-top: 12%;
+    margin-bottom: 140px;
+
+}
+.help1{
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px 37px 0px 0px;
+    background: #FFF;
+    margin: auto;
+}
+.help1P{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+}
+.help2P{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.help2{
+    height: 430px;
+    width: 800px;
+}
+.posDiv1 , .posDiv2{
+    background-image: url(../img/teamMainImg.jpg);
+    width: 200px;
+    height: 440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    stroke-width: 25px;
+    stroke: #F4F0EC;
+    position: absolute;
+}
+.memberimg{
+    border-radius: 10%;
+    width: 90%;
+}
+.teamsec2p1{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 37.5px */
+    letter-spacing: 0.25px;
+}
+.teamsec2p2{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+.childTeamSec2{
+    height: 550px;
+    display: flex;
+    width: 283.548px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+.iconP{
+    display: flex;
+    gap: 30px;
+}
+.teamsec2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding-left: 4%;
+}
+.childTeamSec2:hover .teamsec2p1{
+    color: rgb(216, 104, 104);
+    transition: all 0.15s ease-in-out;
+}
+.childTeamSec2:hover .teamsec2p2{
+    color: rgb(216, 104, 104);
+    transition: all 0.15s ease-in-out;
+}
+.single_team_sec{
+    
+}

@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 header{
     padding-left: 220px;
     padding-right: 220px;
@@ -33,7 +36,7 @@ header img:hover{
 }
 header ul{
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 header ul li{
     color: #292F36;
@@ -44,7 +47,7 @@ header ul li{
     font-weight: 400;
     line-height: 125%; /* 25px */
 }
-header ul li:first-child{
+header ul a:first-child{
     margin-left: 250px;
 }
 header ul li:hover{
@@ -101,6 +104,24 @@ footer{
     gap: 22px;
 }
 .footerUlPt2 li{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+.footerUlPt2 li:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    color: red;
+}
+.footerUlPt2 li a:hover{
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    color: red;
+}
+.footerUlPt2 li a{
     color: #4D5053;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
@@ -686,4 +707,37 @@ footer{
     transition: all 0.25s ease-in-out;
     box-shadow: 0px 10px 40px 0px #47484b;
     scale: 0.97;
+}
+.HeaderHover1{
+    width: 300px;
+    height: 400px;
+    background-color: #ffd9d9;  
+    position: absolute;
+    left: 500px;
+    top: 65px;
+    border-radius: 3%;
+    transition-delay: 2s;
+
+}
+.HeaderHover1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderHover1 ul a li{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%; /* 66px */
+    letter-spacing: 0.22px;
+}
+.HeaderHover1 ul a:first-child{
+    margin-top: 20px;
+}
+.HeaderHover1 ul a li:hover{
+    transition: all 0.25s ease-in-out;
+    color: red;
 }
