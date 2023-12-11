@@ -11,15 +11,15 @@ const Header = () => {
     
     <>
         <header>
-            <img src={MainLogo} alt="" />
-            <p className={classes.mainLogoP}>Interno</p>
+            <a href="/"><img src={MainLogo} alt="" /></a>
+            <a href="/"><p className={classes.mainLogoP}>Interno</p></a>
             <ul>
                 <a href="/"><li onMouseOver={() =>setOpen(true)} onMouseOut={() =>setOpen(false)}>Home</li></a>
                 <a href=""><li>Pages</li></a>
                 <a href="/Service"><li>Services</li></a>
                 <a href=""><li>Project</li></a>
                 <a href=""><li>Blog</li></a>
-                <a href=""><li>Contact</li></a>
+                <a href="/ContactUs"><li>Contact</li></a>
                 <li><HiMagnifyingGlass /></li>
             </ul>
         </header>
@@ -30,8 +30,12 @@ const Header = () => {
                 <a href="/About"><li>About Us</li></a>
                 <a href=""><li>Our Projects</li></a>
                 <a href="/OurTeam"><li>Our Team</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="/ContactUs"><li>Contact Us</li></a>
                 <a href="/Service"><li>Services</li></a>
+                <a href="/Pirceing"><li>Pirceing</li></a>
+                <a href="/Restric"><li>Restric</li></a>
+                <a href="/NewLog"><li>ChangeLog</li></a>
+                <a href="/Licenses"><li>Licenses</li></a>
               </ul>
             </div>
           )

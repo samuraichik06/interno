@@ -1,0 +1,77 @@
+.HeaderBottomSecPT1{
+    background-image: url(../img/NewLog.jpg);
+    width: 100%;
+    height: 340px;
+    padding-top: 12%;
+    margin-bottom: 140px;
+
+}
+.help1{
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px 37px 0px 0px;
+    background: #FFF;
+    margin: auto;
+}
+.help1P{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+}
+.help2P{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.help2{
+    height: 430px;
+    width: 800px;
+}
+.littleSec{
+    display: flex;
+    width: 1201px;
+    padding: 128px 343px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70px;
+    background: #F4F0EC;
+    margin: auto;
+    gap: 30px;
+}
+.info1{
+    height: 71px;
+    flex-shrink: 0;
+    color: #292F36;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 75px */
+    letter-spacing: 0.5px;
+}
+.info2{
+    height: 31px;
+    flex-shrink: 0;
+    color: #4D5053;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}

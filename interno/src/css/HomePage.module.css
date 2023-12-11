@@ -46,6 +46,31 @@ header ul li{
     font-style: normal;
     font-weight: 400;
     line-height: 125%; /* 25px */
+    background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+}
+header ul li::before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+header ul li:hover:before{
+    width: 100%;
+    transition: all 0.25s ease-in-out;
 }
 header ul a:first-child{
     margin-left: 250px;
@@ -54,6 +79,7 @@ header ul li:hover{
     transition: all 0.2s ease-in-out;
     color: rgb(5, 179, 179);
     cursor: pointer;
+    background-position: 0;
 }
 footer{
     height: 450px;
@@ -709,21 +735,23 @@ footer{
     scale: 0.97;
 }
 .HeaderHover1{
-    width: 300px;
+    width: 420px;
     height: 400px;
     background-color: #ffd9d9;  
     position: absolute;
-    left: 500px;
-    top: 65px;
+    left: 450px;
+    top: 60px;
     border-radius: 3%;
     transition-delay: 2s;
+    padding-top: 30px;
 
 }
 .HeaderHover1 ul{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 .HeaderHover1 ul a li{
     color: #4D5053;
@@ -731,13 +759,37 @@ footer{
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 300%; /* 66px */
+    line-height: 200%; /* 66px */
     letter-spacing: 0.22px;
+    background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      transition: all 0.3s ease-in-out;
+    position: relative;
 }
-.HeaderHover1 ul a:first-child{
-    margin-top: 20px;
+.HeaderHover1 ul a li::before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
 }
+
+
 .HeaderHover1 ul a li:hover{
+    background-position: 0;
+}
+.HeaderHover1 ul a li:hover::before{
+    width: 100%;
     transition: all 0.25s ease-in-out;
-    color: red;
 }
