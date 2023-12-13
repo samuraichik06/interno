@@ -19,11 +19,19 @@ import styled from '@emotion/styled'
 const TeamSingle = () => {
 
   const [info , setInfo] = useState(false)
+  const [info1 , setInfo1] = useState(false)
+  const [info2 , setInfo2] = useState(false)
 
   const toggleInfo = () => {
     setInfo(!info)
-    console.log("Button is working");
   }
+  const toggleInfo1 = () => {
+    setInfo(!info1)
+  }
+  const toggleInfo2 = () => {
+    setInfo(!info2)
+  }
+
 
   return (
     <>
@@ -75,17 +83,28 @@ const TeamSingle = () => {
             <div className={classes.child_single_div2}>
               <p className={classes.info9}>Qustion And Answer</p>
               <p className={classes.info10}>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
-              <div className={classes.advanced_div1}>
+
+
+
+              <div className={info ? classes.advanced_div22 : classes.advanced_div2}>
                 <p className={classes.info11}>Website & Mobile App Design?</p>
-                <div className={classes.help_div4}>+</div>
+                <button className={classes.help_div4} onClick={toggleInfo}>+</button>
               </div>
-              <div className={info ? "advanced_div22" : "advanced_div2"}>
-                <p className={classes.info}>How to Easy Successful Projects?</p>
-                <button className={classes.help_div4} onClick={toggleInfo} >+</button>
+
+
+
+
+              <div className={info1 ? classes.advanced_div22 : classes.advanced_div2 }>
+                <p className={classes.info11}>How to Easy Successful Projects?</p>
+                <button className={classes.help_div4} onClick={toggleInfo1} >+</button>
               </div>
-              <div className={classes.advanced_div3}>
+
+
+
+
+              <div className={info2 ? classes.advanced_div22 : classes.advanced_div2}>
                 <p className={classes.info11}>International Trade Experience?</p>
-                <div className={classes.help_div4}>+</div>
+                <button className={classes.help_div4} onClick={toggleInfo2}>+</button>
               </div>
             </div>
           </div>

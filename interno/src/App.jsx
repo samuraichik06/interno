@@ -10,6 +10,8 @@ import Page404 from './Pages/Page404'
 import Restric from './Pages/Restric'
 import NewLog from './Pages/NewLog'
 import Licenses from './Pages/Licenses'
+import ServiceSingle from './Pages/ServiceSingle'
+import ProjectSingle from './Pages/ProjectSingle'
 
 
 import { Routes , Route } from 'react-router'
@@ -33,6 +35,8 @@ const App = () => {
     <Route path='/Restric' element={<Restric />}/>
     <Route path='/NewLog' element={<NewLog />}/>
     <Route path='/Licenses' element={<Licenses />}/>
+    <Route path='/ServiceSingle' element={<ServiceSingle />}/>
+    <Route path='/ProjectSingle' element={<ProjectSingle />}/>
   </Routes>
   )
 }

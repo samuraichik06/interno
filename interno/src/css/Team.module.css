@@ -323,17 +323,30 @@ a{
 }
 .advanced_div22{
     display: flex;
-    width: 728px;
-    height: 75px;
-    align-items: center;
+    width: 528px;
+    height: 155px;
     gap: 10px;
     border-radius: 18px;
     border: 1px solid #CDA274;
-    background: #FFF;
+    background: #dedbdb;
     justify-content: space-between;
-    padding: 0 22px;
+    padding: 20px 22px;
     margin-bottom: 20px;
     margin-top: 10px;
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    top: 10px;
+}
+.info99{
+    width: 427px;
+    height: 86px;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
 }
 .help_div4{
     width: 44px;
@@ -351,6 +364,7 @@ a{
     font-weight: 300;
     line-height: 125%; /* 43.75px */
     letter-spacing: 0.7px;
+    border: #F4F0EC;
 }
 .info11{
     color: #292F36;

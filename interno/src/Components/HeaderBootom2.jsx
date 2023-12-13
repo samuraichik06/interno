@@ -31,32 +31,32 @@ const HeaderBottom = () => {
             <div>
                 <p className={classes.serviceSec1p1}>Project Plan</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
             <div>
                 <p className={classes.serviceSec1p1}>Interior Work</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
             <div>
                 <p className={classes.serviceSec1p1}>Retail Design</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
             <div>
                 <p className={classes.serviceSec1p1}>Decoration Work</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
             <div>
                 <p className={classes.serviceSec1p1}>Interior Work</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
             <div>
                 <p className={classes.serviceSec1p1}>2d/3d Art Work</p>
                 <p className={classes.serviceSec1p2}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-                <p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p>
+                <a href="/ServiceSingle"><p className={classes.serviceSec1p3}>Read More <FaArrowRightLong /></p></a>
             </div>
         </section>
         <section className={classes.bigServiceSec}>
