@@ -36,6 +36,7 @@ const Header = () => {
                 <a href="/Restric"><li>Restric</li></a>
                 <a href="/NewLog"><li>ChangeLog</li></a>
                 <a href="/Licenses"><li>Licenses</li></a>
+                <a href="/OurProject"><li>Our Projects</li></a>
               </ul>
             </div>
           )

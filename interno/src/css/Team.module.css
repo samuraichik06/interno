@@ -320,22 +320,40 @@ a{
     padding: 0 22px;
     margin-bottom: 20px;
     margin-top: 10px;
+    position: relative;
 }
-.advanced_div22{
+.activeDiv{
     display: flex;
     width: 528px;
-    height: 155px;
+    height: 180px;
+    align-items: center;
     gap: 10px;
     border-radius: 18px;
     border: 1px solid #CDA274;
-    background: #dedbdb;
+    background-color: #F4F0EC;
     justify-content: space-between;
-    padding: 20px 22px;
+    padding: 0 22px;
     margin-bottom: 20px;
     margin-top: 10px;
-    transition: all 0.1s ease-in-out;
+    position: relative;
+    transition: all 0.35s ease-in-out;
+}
+.closeDescription{
+    display: none;
+}
+.openDescription{
+    display: block;
+    width: 427px;
+    height: 86px;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
     position: absolute;
-    top: 10px;
+    top: 60px;
 }
 .info99{
     width: 427px;
@@ -375,4 +393,37 @@ a{
     font-weight: 600;
     line-height: 125%; /* 22.5px */
     letter-spacing: 0.36px;
+}
+.openTitle{
+    color: #292F36;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+    position: absolute;
+    top: 25px;
+}
+.openSimvol{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #292F36;
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 43.75px */
+    letter-spacing: 0.7px;
+    border: #F4F0EC;
+    position: absolute;
+    right: 20px;
+    top: 25px;
 }

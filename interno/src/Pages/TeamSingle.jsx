@@ -18,19 +18,23 @@ import styled from '@emotion/styled'
 
 const TeamSingle = () => {
 
+  const someThing = [
+    {title : 'Website & Mobile App Design?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
+    {title : 'How to Easy Successful Projects?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
+    {title : 'International Trade Experience?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
+  ]
+
   const [info , setInfo] = useState(false)
-  const [info1 , setInfo1] = useState(false)
-  const [info2 , setInfo2] = useState(false)
+
 
   const toggleInfo = () => {
     setInfo(!info)
   }
-  const toggleInfo1 = () => {
-    setInfo(!info1)
-  }
-  const toggleInfo2 = () => {
-    setInfo(!info2)
-  }
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleClick = (index) => {
+    setActiveIndex(index);
+  };
 
 
   return (
@@ -85,27 +89,19 @@ const TeamSingle = () => {
               <p className={classes.info10}>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.</p>
 
 
-
-              <div className={info ? classes.advanced_div22 : classes.advanced_div2}>
-                <p className={classes.info11}>Website & Mobile App Design?</p>
-                <button className={classes.help_div4} onClick={toggleInfo}>+</button>
-              </div>
-
-
-
-
-              <div className={info1 ? classes.advanced_div22 : classes.advanced_div2 }>
-                <p className={classes.info11}>How to Easy Successful Projects?</p>
-                <button className={classes.help_div4} onClick={toggleInfo1} >+</button>
-              </div>
+              {
+                someThing.map((index) =>{title , description , simvol } =>{
+                  return(
+                    <div  className={info ? classes.activeDiv : classes.advanced_div2}>
+                      <p className={info ? classes.openTitle : classes.info11}>{title}</p>
+                      <p className={info ? classes.openDescription : classes.closeDescription}>{description}</p>
+                      <button className={info ? classes.openSimvol : classes.help_div4} onClick={toggleInfo}>{simvol}</button>
+                    </div>
+                  )
+                })
+              }
 
 
-
-
-              <div className={info2 ? classes.advanced_div22 : classes.advanced_div2}>
-                <p className={classes.info11}>International Trade Experience?</p>
-                <button className={classes.help_div4} onClick={toggleInfo2}>+</button>
-              </div>
             </div>
           </div>
         </section>
