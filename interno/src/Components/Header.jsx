@@ -17,8 +17,8 @@ const Header = () => {
                 <a href="/"><li onMouseOver={() =>setOpen(true)} onMouseOut={() =>setOpen(false)}>Home</li></a>
                 <a href=""><li>Pages</li></a>
                 <a href="/Service"><li>Services</li></a>
-                <a href=""><li>Project</li></a>
-                <a href=""><li>Blog</li></a>
+                <a href="/OurProject"><li>Project</li></a>
+                <a href="/Blog"><li>Blog</li></a>
                 <a href="/ContactUs"><li>Contact</li></a>
                 <li><HiMagnifyingGlass /></li>
             </ul>
@@ -28,7 +28,6 @@ const Header = () => {
             <div className={classes.HeaderHover1} onMouseOver={() =>setOpen(true)} onMouseOut={() =>setOpen(false)}>
               <ul>
                 <a href="/About"><li>About Us</li></a>
-                <a href=""><li>Our Projects</li></a>
                 <a href="/OurTeam"><li>Our Team</li></a>
                 <a href="/ContactUs"><li>Contact Us</li></a>
                 <a href="/Service"><li>Services</li></a>

@@ -1,0 +1,190 @@
+.HeaderBottomSecPT1{
+    background-image: url(../img/HeaderBottom.png);
+    width: 100%;
+    height: 340px;
+    padding-top: 12%;
+    margin-bottom: 140px;
+
+}
+.help1{
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px 37px 0px 0px;
+    background: #FFF;
+    margin: auto;
+}
+.help1P{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+}
+.help2P{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.help2{
+    height: 430px;
+    width: 800px;
+}
+.mainp1{
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    margin-left: 7%;
+    margin-bottom: 30px;
+}
+.imgDiv1{
+    width: 765px;
+    height: 510px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+.sec1{
+    display: flex;
+    width: 1157px;
+    align-items: center;
+    margin-left: 7%;
+    gap: 69px;
+}
+.info1{
+    width: 463px;
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+}
+.info2{
+    width: 469px;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.22px;
+}
+.info3{
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+}
+.childDiv1{
+    display: flex;
+    width: 489px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+    flex-shrink: 0;
+}
+.helpDiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.helpDiv2{
+    display: flex;
+    align-items: center;
+    width: 400px; 
+}
+.helpDiv1 div{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.helpDiv2 div{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 35%;
+}
+.articleCard{
+    display: flex;
+    flex-direction: column;
+    padding: 21px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 62px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+    width: 382px;
+    height: 521px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.imgClass{
+    border-top-right-radius:40px ;
+    border-top-left-radius:40px ;
+}
+.info4{
+    width: 305px;
+    color: #292F36;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 31.25px */
+    letter-spacing: 0.5px;
+}
+.articleCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 6%;
+    margin-top: 60px;
+}
+.posDiv{
+    display: inline-flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 8px 8px 0px;
+    background: #FFF;
+    color: #4D5053;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    position: absolute;
+    left:40px ;
+    top: 260px;
+}

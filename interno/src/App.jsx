@@ -13,6 +13,8 @@ import Licenses from './Pages/Licenses'
 import ServiceSingle from './Pages/ServiceSingle'
 import ProjectSingle from './Pages/ProjectSingle'
 import OurProject from './Pages/OurProject'
+import Blog from './Pages/Blog'
+import NewsSingle from './Pages/NewsSingle'
 
 
 import { Routes , Route } from 'react-router'
@@ -39,6 +41,8 @@ const App = () => {
     <Route path='/ServiceSingle' element={<ServiceSingle />}/>
     <Route path='/ProjectSingle' element={<ProjectSingle />}/>
     <Route path='/OurProject' element={<OurProject />}/>
+    <Route path='/Blog' element={<Blog />}/>
+    <Route path='/NewsSingle' element={<NewsSingle />}/>
   </Routes>
   )
 }

@@ -90,7 +90,7 @@ const TeamSingle = () => {
 
 
               {
-                someThing.map((index) =>{title , description , simvol } =>{
+                someThing.map(({title , description , simvol})=>{
                   return(
                     <div  className={info ? classes.activeDiv : classes.advanced_div2}>
                       <p className={info ? classes.openTitle : classes.info11}>{title}</p>
