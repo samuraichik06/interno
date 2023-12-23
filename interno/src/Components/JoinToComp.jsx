@@ -10,7 +10,7 @@ const JoinToComp = () => {
         <section className={classes.HomePagePT7}>
             <p className={classes.HomePagePT7p1}>Wanna join the interno?</p>
             <p className={classes.HomePagePT7p2}>It is a long established fact  will be distracted.</p>
-            <button>Contact With Us <FaArrowRightLong /></button>
+            <a href="/ContactUs"><button>Contact With Us <FaArrowRightLong /></button></a> 
         </section>
     </>
   )

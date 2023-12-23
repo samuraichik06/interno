@@ -80,9 +80,12 @@ const HomePagePT2 = () => {
                             <p className={classes.HomePagePT5p3}>Modern Kitchan</p>
                             <p className={classes.HomePagePT5p4}>Decor / Artchitecture</p>
                         </div>
+                        <a href="/ProjectSingle">
                         <div className={classes.helpDiv5}>
                             <MdKeyboardArrowRight className={classes.iconClass4}/>
-                        </div>
+                        </div>                            
+                        </a>
+
                     </div>
                 </div>
                 <div className={classes.CardDiv2}>
@@ -94,9 +97,11 @@ const HomePagePT2 = () => {
                             <p className={classes.HomePagePT5p3}>Modern Kitchan</p>
                             <p className={classes.HomePagePT5p4}>Decor / Artchitecture</p>
                         </div>
+                        <a href="/ProjectSingle">
                         <div className={classes.helpDiv5}>
                             <MdKeyboardArrowRight className={classes.iconClass4}/>
-                        </div>
+                        </div>                            
+                        </a>
                     </div>
                 </div>
                 <div className={classes.CardDiv2}>
@@ -108,9 +113,11 @@ const HomePagePT2 = () => {
                             <p className={classes.HomePagePT5p3}>Modern Kitchan</p>
                             <p className={classes.HomePagePT5p4}>Decor / Artchitecture</p>
                         </div>
+                        <a href="/ProjectSingle">
                         <div className={classes.helpDiv5}>
                             <MdKeyboardArrowRight className={classes.iconClass4}/>
-                        </div>
+                        </div>                            
+                        </a>
                     </div>
                 </div>
                 <div className={classes.CardDiv2}>
@@ -122,9 +129,11 @@ const HomePagePT2 = () => {
                             <p className={classes.HomePagePT5p3}>Modern Kitchan</p>
                             <p className={classes.HomePagePT5p4}>Decor / Artchitecture</p>
                         </div>
+                        <a href="/ProjectSingle">
                         <div className={classes.helpDiv5}>
                             <MdKeyboardArrowRight className={classes.iconClass4}/>
-                        </div>
+                        </div>                            
+                        </a>
                     </div>
                 </div>
             </div>

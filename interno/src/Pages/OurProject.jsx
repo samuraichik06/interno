@@ -24,10 +24,10 @@ import Card from '../Components/Card'
       {title : "Modern Bedroom" , description : "Decor / Artchitecture" , imgUrl : contentImg8 , content : 3}
     ]
 
-const OurProject = () => {
+const OurProject = (index) => {
 
 
-  let [style , setStyle] = useState(1)
+  let [style , setStyle] = useState(false)
   const toggleStyle = (index) =>{
     setStyle(!style)
   }
@@ -39,6 +39,7 @@ const [activeIndex, setActiveIndex] = useState(null);
 
 const handleClick = (index) => {
   setActiveIndex(index);
+  console.log(index);
 };
 
   return (
@@ -53,32 +54,98 @@ const handleClick = (index) => {
       </section>
 {
   
-    <div className={classes.experiment}>
-      {items.map((item, index) => (
-        <div key={index} className={` ${index === activeIndex ? classes.tab_active : classes.tab_container}`} onClick={() => handleClick(index)}>
-          {item}
-        </div>
-      ))}
-    </div>
+    // <div className={classes.experiment}>
+    //   {items.map((item, index) => (
+    //     <div key={index} className={` ${index === activeIndex ? classes.tab_active : classes.tab_container}`} onClick={() => handleClick(index)}>
+    //       {item}
+    //     </div>
+    //   ))}
+    // </div>
   
 }  
       <section className={classes.Main_content}>
-      {
-      Projects.map(({title , description , imgUrl}) =>{
-        return(
-          <div className={classes.child_content}>
-          <img src={imgUrl} alt="" />
+
+        <div className={index === activeIndex === 1 ? classes.activeProject : classes.child_content}  onClick={() => handleClick(index)}>
+          <img src={contentImg1} alt="" />
           <div className={classes.content_div1}>
             <div className={classes.helpDiv1}>
-              <p className={classes.info1}>{title}</p>
-              <p className={classes.info2}>{description}</p>
+              <p className={classes.info1}>Minimal Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
             </div>
             <div className={classes.helpDiv2}><IoIosArrowForward /></div>
           </div>
         </div>
-        )
-      })
-    }
+        <div className={classes.child_content}>
+          <img src={contentImg2} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Max Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content}>
+          <img src={contentImg3} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Minimal Classic Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content}>
+          <img src={contentImg4} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Modern Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content}>
+          <img src={contentImg5} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Minimal Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content}>
+          <img src={contentImg6} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Minimal Bedroom</p>
+              <p className={classes.info2}>Classic Bedroom</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content}>
+          <img src={contentImg7} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Child Bedroom</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+        <div className={classes.child_content} id={classes.id1}>
+          <img src={contentImg8} alt="" />
+          <div className={classes.content_div1}>
+            <div className={classes.helpDiv1}>
+              <p className={classes.info1}>Kitchan</p>
+              <p className={classes.info2}>Decor / Artchitecture</p>
+            </div>
+            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+          </div>
+        </div>
+
       </section>
 
 

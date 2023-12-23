@@ -20,8 +20,6 @@ const TeamSingle = () => {
 
   const someThing = [
     {title : 'Website & Mobile App Design?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
-    {title : 'How to Easy Successful Projects?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
-    {title : 'International Trade Experience?' , description : 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.' , simvol : '+' },
   ]
 
   const [info , setInfo] = useState(false)

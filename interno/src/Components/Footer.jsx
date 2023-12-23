@@ -31,10 +31,10 @@ const Footer = () => {
                     <ul className={classes.footerUlPt2}>
                         <li id={classes.id1}>Pages</li>
                         <li><a href="/About">About Us</a> </li>
-                        <li>Our Projects</li>
-                        <li>Our Team</li>
-                        <li>Contact Us</li>
-                        <li>Services</li>
+                        <li><a href="/OurProject">Our Projects</a></li>
+                        <li><a href="/OurTeam">Our Team</a></li>
+                        <li><a href="/ContactUs">Contact Us</a></li>
+                        <li><a href="/Services">Services</a></li>
                     </ul>
                 </div>
                 <div className={classes.childFooterPt1}>

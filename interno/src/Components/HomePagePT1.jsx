@@ -12,7 +12,7 @@ const HomePagePT1 = () => {
         <section className={classes.HomePageSecPT1}>
             <p className={classes.homeMainp1}>Let Your Home Be Unique</p>
             <p className={classes.homeChildp1}>There are many variations of the passages of lorem Ipsum fromavailable,variations of the passages.</p>
-            <button>Get Started <FaArrowRightLong className={classes.iconClass1}/></button>
+            <a href="/OurProject"><button>Get Started <FaArrowRightLong className={classes.iconClass1}/></button></a> 
         </section>
         <section className={classes.HomePageSecPT2}>
             <div>
@@ -42,7 +42,7 @@ const HomePagePT1 = () => {
                         <p className={classes.HomePageSecPT3p4}>070 905 77 05</p>
                     </div>
                 </div>
-                <button>Get Free Estimate <FaArrowRightLong className={classes.iconClass1}/></button>
+                <a href="/ContactUs"><button>Get Free Estimate <FaArrowRightLong className={classes.iconClass1}/></button></a> 
             </div>
             <div>
                 <img src={SecPT3} alt="" />
