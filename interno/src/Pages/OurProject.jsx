@@ -72,7 +72,7 @@ const handleClick = (index) => {
               <p className={classes.info1}>Minimal Bedroom</p>
               <p className={classes.info2}>Decor / Artchitecture</p>
             </div>
-            <div className={classes.helpDiv2}><IoIosArrowForward /></div>
+            <a href="/ProjectSingle"><div className={classes.helpDiv2}><IoIosArrowForward /></div></a>
           </div>
         </div>
         <div className={classes.child_content}>
